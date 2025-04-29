@@ -3,9 +3,9 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
@@ -72,3 +72,16 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# IDE/editor config
+.vscode/
+.idea/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Git lock files (prevent staging them by accident)
+.git/index.lock
